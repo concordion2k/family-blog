@@ -1,25 +1,10 @@
 # family-blog
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the front end to a personal blog. As it grows, it may become a shareable template for others. It is intended to work with another repository (not yet committed to git) that publishes an API to handle user actions, save user preferences, create and track JWT tokens, etc.
 
-## Recommended IDE Setup
+I do not intend to use a UI library for this project. I am interested in builing my raw CSS and HTML skills, using [VueJS](https://vuejs.org/guide/introduction.html) and its [Options API](https://vuejs.org/guide/introduction.html#api-styles) to handle components and data reactivity. See documentation [here](https://vuejs.org/api/).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Feedback is welcome!
 
 ## Project Setup
 

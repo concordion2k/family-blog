@@ -46,4 +46,21 @@ p {
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+    margin: auto;
+  }
+
+  .right-side {
+    margin-top: 20px;
+  }
+  
+}
 </style>

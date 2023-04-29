@@ -1,7 +1,7 @@
 <template>
   <h1 class="title">Douston Family Blog</h1>
   <NavBar />
-  <router-view></router-view>
+  <router-view />
   <FooterBar />
 </template>
 
@@ -18,11 +18,6 @@ export default {
 </script>
 
 <style scoped>
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .title {
   margin: 20px auto;
   font-family:cursive;
